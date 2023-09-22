@@ -1,0 +1,16 @@
+/* Reset some default styles */
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* App styles */
+.app {
+    display: flex;
+}
+
+/* Content styles */
+.content {
+    margin-left: 250px; /* Adjust this to match the sidebar width */
+    padding: 20px;
+}
