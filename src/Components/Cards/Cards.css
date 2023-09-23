@@ -1,0 +1,9 @@
+.cardss{
+  margin-left: 40px;
+  margin-top: 60px;
+}
+.cards-container {
+  display: flex;
+  /* justify-content: space-between; Add space between the cards */
+}
+
