@@ -5,6 +5,7 @@ import { IoSearchCircleSharp } from "react-icons/io5";
 import "./TabBar.css";
 import Sidebar from "../../Components/Sidebar/SideBar";
 import Cards from "../../Components/Cards/Cards";
+import Filterbutton from "../../Components/Filterbutton/Filterbutton";
 
 interface Applications {
   id: number;
@@ -49,6 +50,7 @@ const TabBar = (props: Props) => {
   return (
     <>
     <nav className="navbar tabbar-custom">
+    <Filterbutton/>
       <Sidebar />
       <div className="container">
         <a
@@ -64,7 +66,7 @@ const TabBar = (props: Props) => {
         </form>
       </div>
     </nav>
-    <Cards/>
+    {/* <Cards/> */}
     </>
   );
 };

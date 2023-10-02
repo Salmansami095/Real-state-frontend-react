@@ -8,7 +8,6 @@ import './NavBar.css';
 function Navbar() {
   return (
     <>
-    
     <nav className="navbar navbar-light custom-navbar">
       <div className="navbar-logo">
         <img

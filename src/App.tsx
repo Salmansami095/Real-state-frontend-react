@@ -8,10 +8,9 @@ function App() {
   return (
     <div>
       {/* <LoginPage/> */}
-      <NavBar />
+       <NavBar />
       <TabBar title="Application" /> 
-      {/* <Cards/>
-      {/* <SideBar/> */}
+       <Cards/>
     </div>
   );
 }
