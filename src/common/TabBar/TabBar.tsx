@@ -50,7 +50,6 @@ const TabBar = (props: Props) => {
   return (
     <>
     <nav className="navbar tabbar-custom">
-    <Filterbutton/>
       <Sidebar />
       <div className="container">
         <a
